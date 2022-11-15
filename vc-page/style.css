@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sign-in-body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(64,123,255);
+}
+.sign-up-body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(64,123,255);
+}
+.login{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 10px;
+    background:#ffff;
+
+}
+.login h1{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 36px;
+}
+.login .form-group{
+    margin-top: 10px;
+}
+.login form input[type="submit"]{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.invalid-feedback{
+    color: red;
+}
+.sign-up-link{
+    margin-top: 10px;
+}
+.sign-up{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 10px;
+    background:#ffff;
+}
+.sign-up .form-group{
+    margin-top: 10px;
+}
+.sign-up .form input[type="submit"]{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.sign-in-link{
+    margin-top: 10px;
+}
+
+.banner{
+    display: flex;
+    margin-top: 50px;
+}
+
+.left-side,.right-side{
+    flex-basis: 50%;
+}
+.right-side img{
+    margin-top: 0px;
+    width: 700px;
+    height: inherit;
+}
+.left-side h1{
+    margin-top: 100px;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    font-size: 60px;
+}
+
+span{
+    color: rgb(64,123,255);
+   
+}
+.left-side h2{
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+.left-side p{
+    font-size: 17px;
+     margin-left: 70px;
+}
+
+.button-10 {
+    margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+.navbar-brand{
+    margin-left: 30px;
+    font-weight: 500;
+}
